@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body
+{
+ margin : 0 auto;
+ background-color: #faf8ef;
+ font-family: Roboto;
+}
+header
+{
+ width: 40%;
+ margin: auto;
+}
+h1
+{
+ color : #776e65;
+ font-size: 40px;
+}
+p
+{
+ color : #776e65;
+ font-size: 17px;
+}
+.newGame
+{
+  color: white;
+  background-color: #776e65;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #776e65;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: bold;
+  width: 125px;
+  font-size: 15px;
+}
+span
+{
+  float: right;
+  margin-top: 10px;
+  font-size: 22px;
+  margin-right: 15px;
+  color : #bbada0;
+}
+.score {
+  color: #fff;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #bbada0;
+  border-radius: 10px;
+  height: 30px;
+  text-align: center;
+  background-color: #bbada0;
+  width: 130px;
+  float: right;
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+table
+{
+ background-color: #cdc1b4;
+ border-collapse: collapse;
+ width: 530px;
+ height: 530px;
+ text-align: center;
+ margin: auto;
+ table-layout: fixed;
+ border-radius: 5px;
+}
+td
+{
+ border-style: solid;
+ border-color: #bbada0;
+ border-width: 10px;
+ width: 50px;
+ height: 50px;
+ font-size: 35px;
+ color: #776e65;
+ font-weight: bold;
+ white-space: nowrap;
+ border-radius: 5px;
+}
